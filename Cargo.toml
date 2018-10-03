@@ -1,0 +1,10 @@
+[package]
+name = "mock_ws_server"
+version = "0.1.0"
+authors = ["Andriy Kovalov <andy.kovv@gmail.com>"]
+
+[dependencies]
+
+[dependencies.ws]
+version = "*"
+features = ["ssl", "permessage-deflate"]
